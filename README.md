@@ -89,4 +89,4 @@ MIT
 
 ## Credits
 
-Built with ❤️ by [Aneez] for automating secure access to self-hosted services.
+Built with ❤️ by Aneez for automating secure access to self-hosted services.
