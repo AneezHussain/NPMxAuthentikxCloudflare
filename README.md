@@ -5,7 +5,6 @@ This Bash script automates the full setup of a **secure, authenticated reverse p
 - 🧠 [Authentik](https://goauthentik.io/) (SSO & Identity Provider)
 - 🌐 [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) (exposes local services securely)
 - 🧰 [Nginx Proxy Manager](https://nginxproxymanager.com/) (manages proxies easily)
-
 ---
 ## 🚀 What It Does
 
