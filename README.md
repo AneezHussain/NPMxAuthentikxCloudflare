@@ -76,37 +76,6 @@ The script takes care of everything else!
 - 🔐 SSL enablement for added security
 
 ---
-
-## 📝 Nginx Authentik Config Injection
-
-The script injects a **fully configured reverse proxy block** compatible with Authentik, including:
-
-- `proxy_buffers` and `proxy_buffer_size` tweaks
-- `auth_request` setup
-- Redirects for Authentik login
-- Outpost route support
-
----
-
-## 🌩️ Cloudflare Ingress Automation
-
-The script:
-
-- Fetches your current tunnel configuration
-- Injects a new ingress rule for the new domain
-- Cleans up unused/empty entries
-- Adds fallback route `http_status:404`
-
----
-
-## 🛡️ Authentik Setup
-
-- Creates a **Proxy Provider** with SSO support
-- Links the provider to a new **Application**
-- Sets token validity for 24 hours
-
----
-
 ## 📂 Example Use Case
 
 Let’s say you have an internal app on:
@@ -121,14 +90,6 @@ Running this script will:
 - Secure it with SSL
 - Enforce Authentik SSO login
 - Tunnel it securely via Cloudflare
-
----
-
-## ⚠️ Notes
-
-- Customize the default forward host/IP or proxy buffer values as needed.
-- This script assumes that your Authentik Outpost is available at `http://192.168.1.75:7000/outpost.goauthentik.io`.
-- Test configurations in a staging environment before using in production.
 
 ---
 
