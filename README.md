@@ -7,7 +7,6 @@ This Bash script automates the full setup of a **secure, authenticated reverse p
 - 🧰 [Nginx Proxy Manager](https://nginxproxymanager.com/) (manages proxies easily)
 
 ---
-
 ## 🚀 What It Does
 
 This script:
@@ -28,9 +27,7 @@ Before running, make sure:
 - Cloudflare Tunnel is already set up with an existing `TUNNEL_ID`.
 - Authentik instance is up and running.
 - `jq` is installed on your system.
-
 ---
-
 ## ⚙️ Required Variables
 
 You’ll need to update the following variables in the script:
