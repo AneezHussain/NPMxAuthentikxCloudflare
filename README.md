@@ -5,7 +5,7 @@ This Bash script automates the full setup of a **secure, authenticated reverse p
 - 🧠 [Authentik](https://goauthentik.io/) (SSO & Identity Provider)
 - 🌐 [Cloudflare Tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/) (exposes local services securely)
 - 🧰 [Nginx Proxy Manager](https://nginxproxymanager.com/) (manages proxies easily)
----
+
 ## 🚀 What It Does
 
 This script:
@@ -16,7 +16,7 @@ This script:
 4. **Updates your Cloudflare Tunnel config** to include the new domain.
 5. **Registers the app with Authentik**, creating a proxy provider and linking it to a new application.
 
----
+
 
 ## 🛠️ Prerequisites
 
@@ -26,7 +26,7 @@ Before running, make sure:
 - Cloudflare Tunnel is already set up with an existing `TUNNEL_ID`.
 - Authentik instance is up and running.
 - `jq` is installed on your system.
----
+
 ## ⚙️ Required Variables
 
 You’ll need to update the following variables in the script:
@@ -39,8 +39,6 @@ ACCOUNT_ID="YOUR_CLOUDFLARE_ACCOUNT_ID"
 TUNNEL_ID="YOUR_CLOUDFLARE_TUNNEL_ID"
 CLOUDFLARE_API_TOKEN="YOUR_CLOUDFLARE_API_TOKEN"
 ```
-
----
 
 ## 🧪 How to Use
 
@@ -59,8 +57,6 @@ You will be prompted to enter:
 
 The script takes care of everything else!
 
----
-
 ## 🧩 Features
 
 - ✅ Interactive CLI prompts
@@ -71,7 +67,6 @@ The script takes care of everything else!
 - 🧾 Cleans up and patches JSON config on the fly with `jq`
 - 🔐 SSL enablement for added security
 
----
 ## 📂 Example Use Case
 
 Let’s say you have an internal app on:
@@ -87,14 +82,11 @@ Running this script will:
 - Enforce Authentik SSO login
 - Tunnel it securely via Cloudflare
 
----
 
 ## 📜 License
 
 MIT
 
----
-
-## 🙏 Credits
+## Credits
 
 Built with ❤️ by [Aneez] for automating secure access to self-hosted services.
