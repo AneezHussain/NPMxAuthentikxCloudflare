@@ -1,6 +1,4 @@
-# NPMxAuthentikxCloudflare
-
-# 🔐 Authentik + Nginx Proxy Manager + Cloudflare Automation Script
+# Authentik + Nginx Proxy Manager + Cloudflare Automation Script
 
 This Bash script automates the full setup of a **secure, authenticated reverse proxy** using:
 
