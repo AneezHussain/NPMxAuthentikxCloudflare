@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# Nginx Proxy Manager CLI Script
-#   Github [ https://github.com/Erreur32/nginx-proxy-manager-Bash-API ]
-#   By Erreur32 - July 2024
-#   NPM api https://github.com/NginxProxyManager/nginx-proxy-manager/tree/develop/backend/schema
-
 VERSION="2.7.0"
 
 # debug version
